@@ -1,0 +1,60 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width">
+    <title>starvarsgram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/heroes_styles.css">
+</head>
+<body  >
+<header class="main-header">
+    <h1 class="logo-title">StarWarsGram</h1></header>
+<main class="main-content">
+
+    <div class="detail-container">
+        <div class="detail-frame">
+            <img  class="detail-image" src="images/darthvader.jpg">
+            <span class="detail-title"> I am your father, Luke!</span>
+            <button id="hide-button" onclick="hideDetails()">Hide details</button>
+                  </div>
+    </div>
+
+<ul class="thumbnails-list">
+    <li class="thumbnails-item">
+        <a href="images/darthmaul.jpg" data-detailed-text="I will find you!">
+            <img class="thumbnails-image" src="images/darthmaul.jpg">
+            <span class="thumbnails-title">Darth Maul</span>
+        </a>
+    </li>
+    <li class="thumbnails-item">
+        <a href="images/amidala.jpeg" data-detailed-text="I'm not a queen yet!">
+            <img class="thumbnails-image" src="images/amidala.jpeg">
+            <span class="thumbnails-title">Padme Amidala</span>
+        </a>
+    </li>
+    <li class="thumbnails-item">
+        <a href="images/darthvader.jpg" data-detailed-text="I'm your father, Luke!">
+            <img class="thumbnails-image" src="images/darthvader.jpg">
+            <span class="thumbnails-title">Darth Vader</span>
+        </a>
+    </li>
+    <li class="thumbnails-item">
+        <a href="images/obi-wan.jpg" data-detailed-text="I will teach you!">
+            <img class="thumbnails-image" src="images/obi-wan.jpg">
+            <span class="thumbnails-title">Obi-Van Kenobi</span>
+        </a>
+    </li>
+    <li class="thumbnails-item">
+        <a href="images/yoda.jpeg" data-detailed-text="Look into yourself!">
+            <img class="thumbnails-image" src="images/yoda.jpeg">
+            <span class="thumbnails-title">Master Yoda</span>
+        </a>
+    </li>
+
+</ul>
+</main>
+<script src="scripts/index.js">
+
+</script>
+</body>
+</html>
